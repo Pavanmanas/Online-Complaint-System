@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Public+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Public Sans", sans-serif;
+}
+
+body {
+  background-color: #f9f9ff;
+  color: #141b2c;
+  font-family: var(--font-sans);
+}
+
+/* Custom zebra rows for tables matching screenshots */
+.zebra-row:nth-child(even) {
+  background-color: #EBF2FA;
+}
